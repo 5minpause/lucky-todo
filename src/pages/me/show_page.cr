@@ -2,7 +2,7 @@ class Me::ShowPage < MainLayout
   def content
     h1 "This is your profile"
     h3 "Email:  #{@current_user.email}"
-    helpful_tips
+    link_to_todos
   end
 
   private def helpful_tips
@@ -13,5 +13,9 @@ class Me::ShowPage < MainLayout
       li "To add pages that do not require sign in, include the" +
          "Auth::SkipRequireSignIn module in your actions"
     end
+  end
+
+  private def link_to_todos
+    link "Go to Todos", to: Todos::Index
   end
 end
