@@ -1,5 +1,7 @@
 # todo
 
+## This was written to accompany my talk about the Lucky Framework at Ruby User Group Berlin
+
 This is a project written using [Lucky](https://luckyframework.org). Enjoy!
 
 ### Setting up the project
