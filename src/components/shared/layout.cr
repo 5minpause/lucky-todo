@@ -12,7 +12,7 @@ module Shared::Layout
     head do
       utf8_charset
       title "My App - #{page_title}"
-      css_link("https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css")
+      css_link "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       css_link asset("css/app.css")
       js_link asset("js/app.js")
       csrf_meta_tags
